@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
+
+:root{
+    /* Fonts */
+    --font-sail: 'Sail', serif;
+    --font-ipm: 'IBM Plex Mono', monospace;
+    --font-scp: 'Source Code Pro', monospace; /* Italic only */
+    --font-lobs: 'Lobster', serif;
+    --font-wght-std: 400;
+    --font-wght-brace: 500;
+
+    /* Color */
+    --color-black: rgba(0, 0, 0, 0.9);
+    --color-white: rgba(255, 255, 255, 0.9);
+    --color-gray: rgba(159, 159, 159, 0.9);
+    --color-blue: rgb(72,169,233);
+    --color-yellow: rgb(232,144,169);
+  }

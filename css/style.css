@@ -1,0 +1,53 @@
+@import "vars.css";
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0em;
+}
+
+.head-title {
+    font-family: var(--font-sail);
+    font-weight: var(--font-wght-std);
+    font-size: 3em;
+    letter-spacing: 0.0625em;
+    color: var(--color-blue);
+}
+
+.head {
+    font-family: var(--font-sail);
+    font-weight: var(--font-wght-std);
+    font-size: 1.75em;
+    margin-left: 1.5em;
+    letter-spacing: 0.075em;
+}
+
+.head-hyphen {
+    font-family: var(--font-lobs);
+    font-weight: var(--font-wght-std);
+    letter-spacing: 0em;
+}
+
+.item {
+    font-family: var(--font-ipm);
+    font-weight: var(--font-wght-std);
+    font-size: 1.25em;
+    color: var(--color-gray);
+    letter-spacing: 0.05em;
+}
+
+.item-name {
+    color: var(--color-yellow);
+}
+
+.brace {
+    font-family: var(--font-scp);
+    font-weight: var(--font-wght-brace);
+    font-style: italic;
+    font-size: 2.5em;
+    color: var(--color-gray);
+}
